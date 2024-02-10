@@ -19,7 +19,7 @@ public class SpringBootJpaH2Application implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		Tutorial tutorial = new Tutorial("kind ", "kind description", false);
+		Tutorial tutorial = new Tutorial("kind ", "kind description 1", false);
 		Tutorial tutorial1 = new Tutorial("kind 1", "kind description 2", false);
 		Tutorial tutorial2 = new Tutorial("kind 2", "kind description 3", false);
 
